@@ -24,7 +24,8 @@
         }
     ],
     "license": "LICENSE",
-    "manifest": "https://github.com/AlexHowansky/ork-foundry-movement-mapper/releases/latest/download/module.json",
+    "manifest": "https://raw.githubusercontent.com/AlexHowansky/ork-foundry-movement-mapper/main/module.json",
+    "download": "https://github.com/AlexHowansky/ork-foundry-movement-mapper/archive/refs/heads/main.zip",
     "readme": "README.md",
     "title": "ORK Movement Mapper",
     "url": "https://github.com/AlexHowansky/ork-foundry-movement-mapper",
