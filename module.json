@@ -1,0 +1,32 @@
+{
+    "authors": [
+        {
+            "discord": "Yoglets#0263",
+            "email": "alex.howansky@gmail.com",
+            "name": "Alex Howansky",
+            "url": "https://howansky.org/"
+        }
+    ],
+    "compatibility": {
+        "minimum": "13",
+        "verified": "14"
+    },
+    "description": "When hovering over a token, highlights the grid spaces it can reach with its movement speed.",
+    "esmodules": [
+        "scripts/main.js"
+    ],
+    "id": "ork-movement-mapper",
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        }
+    ],
+    "license": "LICENSE",
+    "manifest": "https://github.com/AlexHowansky/ork-foundry-movement-mapper/releases/latest/download/module.json",
+    "readme": "README.md",
+    "title": "ORK Movement Mapper",
+    "url": "https://github.com/AlexHowansky/ork-foundry-movement-mapper",
+    "version": "0.2.0"
+}

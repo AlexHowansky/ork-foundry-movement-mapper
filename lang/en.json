@@ -1,0 +1,42 @@
+{
+    "ork-movement-mapper": {
+        "settings": {
+            "speedPath": {
+                "name": "Speed data path",
+                "hint": "Path to the actor's speed, where {action} is replaced by the token's movement action (e.g. system.attributes.movement.{action}). Leave blank to use the built-in default for this game system."
+            },
+            "actionMap": {
+                "name": "Movement action mapping",
+                "hint": "Optional comma-separated overrides mapping core movement actions to the system's speed keys, e.g. walk=land, fly=fly."
+            },
+            "showDash": {
+                "name": "Show dash range",
+                "hint": "Also highlight the spaces reachable with a dash (extra move) in a second color."
+            },
+            "dashMultiplier": {
+                "name": "Dash multiplier",
+                "hint": "The total movement, as a multiple of speed, that a dash allows. 2 means double speed."
+            },
+            "colorMove": {
+                "name": "Move color",
+                "hint": "Highlight color for spaces reachable with a normal move."
+            },
+            "colorDash": {
+                "name": "Dash color",
+                "hint": "Highlight color for spaces reachable only with a dash."
+            },
+            "showDistance": {
+                "name": "Show distances",
+                "hint": "Label each highlighted space with the cumulative movement cost to reach it, including difficult terrain."
+            },
+            "opacity": {
+                "name": "Highlight opacity",
+                "hint": "The highlight opacity, from 0 (transparent) to 1 (solid)."
+            },
+            "debug": {
+                "name": "Enable debug console messages",
+                "hint": "If enabled, detailed debug messages will output to the console."
+            }
+        }
+    }
+}
