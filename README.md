@@ -2,6 +2,8 @@
 
 A Foundry VTT module (v13+) that highlights every grid space a token can reach when you hover over it.
 
+![Movement and dash ranges highlighted around a hovered token, with distance labels](example.webp)
+
 ## Features
 
 - **Owner/GM only.** The highlight appears only for tokens the current user owns. GMs see it for all tokens.
